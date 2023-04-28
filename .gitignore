@@ -1,0 +1,16 @@
+.idea
+.gitconfig
+
+dist/*
+docs/*
+reports/*
+pages/*
+
+node_modules
+package-lock.json
+
+# # exclude everything
+# somefolder/*
+
+# # exception to the rule
+# !somefolder/.gitkeep

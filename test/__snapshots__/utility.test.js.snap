@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 1`] = `
+"function functionStatement(foo) {
+    return foo;
+  }"
+`;
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 2`] = `
+"function foo(bar) {
+    return bar;
+  }"
+`;
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 3`] = `
+"function (baz) {
+    return baz;
+  }"
+`;
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 4`] = `"biz => biz"`;
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 5`] = `"function () {}"`;
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 6`] = `"() => ({})"`;
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 7`] = `"class {}"`;
+
+exports[`Regarding all test functionality of the \`utility\` module ... The utility method \`getFunctionSignature\` ... - does extract any function type's \`toString\` representative. 8`] = `"function* () {}"`;
